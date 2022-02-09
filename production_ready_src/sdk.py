@@ -7,9 +7,9 @@ import numpy as np
 import tensorflow.compat.v1 as tf
 
 #relative imports
-from encoder import get_encoder
-from model import default_hparams
-from sample import sample_sequence
+from .encoder import get_encoder
+from .model import default_hparams
+from .sample import sample_sequence
 
 class CodeToText: 
     def __init__(self, model_name="124M", seed=None, nsamples=1, batch_size=1, length=None, temperature=1, top_k=0, top_p=1, models_dir="models"):
