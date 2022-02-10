@@ -1,0 +1,38 @@
+div containing h1 p img
+
+<div>
+    <h1></h1>
+    <p></p>
+    <img />
+</div>
+
+<|endoftext|>
+
+section containing h1 p img
+
+<section>
+    <h1></h1>
+    <p></p>
+    <img />
+</section>
+
+<|endoftext|>
+
+section containing 3 img
+
+<section>
+    <img />
+    <img />
+    <img />
+</section>
+
+<|endoftext|>
+
+section containing a centered h1
+
+<section>
+    <h1 style="text-align: center;"></h1>
+</section>
+
+<|endoftext|>
+
